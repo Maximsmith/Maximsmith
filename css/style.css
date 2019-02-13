@@ -82,6 +82,12 @@ ul.nav {
 	font-weight: 400;
 }
 
+body#index a#contact.active, body#index a#work.active {
+	font-weight: 200;
+	opacity: 0.7;
+	border: none;
+}
+
 .main_body {
 	width: 100%;
 	height: 100%;
