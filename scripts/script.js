@@ -11,15 +11,15 @@ window.addEventListener('resize', () => {
 });
 
 jQuery(document).ready(function($){
-
-	var path = window.location.pathname.split("/").pop();
-
-	if ( path == '') {
-		path = 'index.html';
-	}
-
-	var target = $('.nav a[href="'+path+'"]');
-
-	target.addClass('active');
-	}
+  // Get current path and find target link
+  var path = window.location.pathname.split("/").pop();
+  
+  // Account for home page with empty path
+  if ( path == '' ) {
+    path = 'index.html';
+  }
+      
+  var target = $('nav a[href="'+path+'"]');
+  // Add active class to target link
+  target.addClass('active');
 });
