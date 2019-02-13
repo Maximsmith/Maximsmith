@@ -21,6 +21,8 @@ h1 {
 h2 {
 	font-family: 'EB Garamond', serif;
 	color: #ffffff;
+	font-weight: 100;
+	letter-spacing: 3px;
 }
 
 h3 {
@@ -104,6 +106,11 @@ body#index a#contact.active, body#index a#work.active {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+}
+
+#contact .hero_body {
+	display: flex;
+	justify-content: space-around;
 }
 
 /*// Work Items //*/
