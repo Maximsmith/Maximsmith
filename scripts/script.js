@@ -10,7 +10,16 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-$(function() {
-	$('nav a').removeClass('active');
-	$('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
+function setNavigation() {
+    var path = window.location.pathname;
+    path = path.replace(/\/$/, "");
+    path = decodeURIComponent(path);
+
+    $("nav a").each(function() {
+        $('nav a').removeClass('active'); // remove active for all links
+        var href = $(this).attr('href');
+        if (path.substring(0, href.length) === href) {
+            $(this).closest('a').addClass('active');
+        }
+    });
+}
