@@ -10,6 +10,18 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-$(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+jQuery.address.change(function(event) {
+    if (event.value) {
+        // remove active class on all nav links
+        $("nav ul li a").removeClass("active");
+        // get current link and add active class to it
+        $("nav ul li a").each(function() {
+            var dataPath = jQuery(this).attr("href").replace(
+                base, '');
+            $(this).attr("data-path", dataPath);
+            if (dataPath == (event.value)) {
+                $(this).addClass("active");
+            }
+        });
+    }
 });
