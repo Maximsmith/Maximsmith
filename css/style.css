@@ -102,7 +102,7 @@ body#index a#contact.active, body#index a#work.active {
 	transform: translate(-50%, -50%);
 }
 
-// Work Items //
+/*// Work Items //*/
 
 .work_item {
 	width: 50vw;
