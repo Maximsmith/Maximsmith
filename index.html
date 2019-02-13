@@ -14,9 +14,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<script type="text/javascript">
-		$(function() {
-			$('nav a[href^="/#' + location.pathname.split("/#")[1] + '"]').addClass('active');
-		});
+		$(function(){
+		    var current = location.pathname;
+		    $('.nav li a').each(function(){
+		        var $this = $(this);
+		        // if the current path is like this link, make it active
+		        if($this.attr('href').indexOf(current) !== -1){
+		            $this.addClass('active');
+		        }
+		    })
+		})
 	</script>
 	
 </head>
