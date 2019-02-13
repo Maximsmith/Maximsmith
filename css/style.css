@@ -65,11 +65,25 @@ ul.nav {
 	display: inline-block;
 	padding-right: 30px;
 	letter-spacing: 2px;
-	opacity: 0.7; 
+	opacity: 0.7;
+	cursor: pointer; 
 }
 
 .nav li:last-child {
 	padding-right: 0;
+}
+
+.main_body {
+	width: 100%;
+	position: relative;
+}
+
+.hero_body {
+	position: absolute;
+	width: 70vw;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 
