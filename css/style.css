@@ -16,6 +16,7 @@ body#index {
 h1 {
 	font-family: 'EB Garamond', serif;
 	color: #ffffff;
+	font-weight: 100;
 }
 
 h2 {
@@ -43,6 +44,10 @@ a {
 li {
 	font-family: 'Raleway', sans-serif;
 	color: #ffffff;
+}
+
+h1.index_title {
+	font-size: 51px;
 }
 
 p.index_copy {
