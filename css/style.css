@@ -102,6 +102,14 @@ body#index a#contact.active, body#index a#work.active {
 	transform: translate(-50%, -50%);
 }
 
+// Work Items //
+
+.work_item {
+	width: 50vw;
+	height: 50vh;
+	background-color: coral;
+}
+
 
 @media screen and (max-width:812px){
 }
