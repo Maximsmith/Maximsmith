@@ -11,5 +11,10 @@ window.addEventListener('resize', () => {
 });
 
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  var pgurl = window.location.href.substr(window.location.href
+     .lastIndexOf("/") + 1);
+  $("nav a").each(function() {
+     if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
+        $(this).addClass("active");
+  })
 });
