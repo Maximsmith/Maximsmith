@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
 		path = 'index.html';
 	}
 
-	var target = $('nav a[href="'+path+'"]');
+	var target = $('.nav a[href="'+path+'"]');
 
 	target.addClass('active');
 	}
