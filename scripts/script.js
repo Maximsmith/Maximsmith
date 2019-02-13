@@ -9,3 +9,17 @@ window.addEventListener('resize', () => {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
+
+jQuery(document).ready(function($){
+
+	var path = window.location.pathname.split("/").pop();
+
+	if ( path == '') {
+		path = 'index.html';
+	}
+
+	var target = $('nav a[href="'+path+'"]');
+
+	target.addClass('active');
+	}
+});
