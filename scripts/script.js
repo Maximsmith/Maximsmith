@@ -10,20 +10,13 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-var base = 'https://maximsmith.github.io/';
-
-jQuery.address(function(event) {
-    if (event.value) {
-        // remove active class on all nav links
-        $("nav ul li a").removeClass("active");
-        // get current link and add active class to it
-        $("nav ul li a").each(function() {
-            var dataPath = jQuery(this).attr("href").replace(
-                base, '');
-            $(this).attr("data-path", dataPath);
-            if (dataPath == (event.value)) {
-                $(this).addClass("active");
-            }
-        });
-    }
-});
+$(function(){
+    var current = 'https://maximsmith.github.io/';
+    $('nav li a').each(function(){
+        var $this = $(this);
+        // if the current path is like this link, make it active
+        if($this.attr('href').indexOf(current) !== -1){
+            $this.addClass('active');
+        }
+    })
+})
