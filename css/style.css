@@ -45,6 +45,14 @@ p.index_copy {
 	color: #ffffff;
 	font-size: 30px;
 	line-height: 1.5em;
+	letter-spacing: 1px;
+}
+
+.main_nav {
+	position: fixed;
+	top: 50%;
+	left:30px;
+	transform: translateY(-50%);
 }
 
 
