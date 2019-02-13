@@ -107,10 +107,25 @@ body#index a#contact.active, body#index a#work.active {
 
 /*// Work Items //*/
 
+.work_body {
+	width: 100%;
+	height: 100%;
+}
+
 .work_item {
+	width: 100vw;
+	height: 66.666vh;
+	position: relative;
+}
+
+.work_item_image {
 	width: 50vw;
-	height: 50vh;
-	background-color: coral;
+	height: 75vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 10px solid coral;
 }
 
 
