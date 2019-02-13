@@ -118,6 +118,22 @@ body#index a#contact.active, body#index a#work.active {
 	position: relative;
 }
 
+.work_item:second-child {
+	top: -33.333vh;
+}
+
+.work_item:third-child {
+	top: -66.666vh;
+}
+
+.work_item:fourth-child {
+	top: -100vh;
+}
+
+.work_item:fifth-child {
+	top: -133.333vh;
+}
+
 .work_item_image {
 	width: 50%;
 	height: 50%;
