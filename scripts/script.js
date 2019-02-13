@@ -12,7 +12,7 @@ window.addEventListener('resize', () => {
 
 var base = 'https://maximsmith.github.io/';
 
-jQuery.address.change(function(event) {
+jQuery.address(function(event) {
     if (event.value) {
         // remove active class on all nav links
         $("nav ul li a").removeClass("active");
