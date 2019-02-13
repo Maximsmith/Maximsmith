@@ -11,5 +11,5 @@ window.addEventListener('resize', () => {
 });
 
 $(function() {
-	$('nav a[href^="/' + location.pathname'"]').addClass('active');
+	$('nav a[href^="/' + location.pathname.split("/") + '"]').addClass('active');
 });
