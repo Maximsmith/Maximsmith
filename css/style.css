@@ -40,6 +40,13 @@ li {
 	color: #ffffff;
 }
 
+p.index_copy {
+	font-family: 'EB Garamond', serif;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 1.5em;
+}
+
 
 @media screen and (max-width:812px){
 }
