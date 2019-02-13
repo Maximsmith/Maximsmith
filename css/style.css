@@ -6,8 +6,11 @@ html,body{
 	background: /*#031421*/ #000000;
 	margin:0;
 	padding:0;
-	overflow: hidden;
 	position: relative;
+}
+
+body#index {
+	overflow: hidden;
 }
 
 h1 {
