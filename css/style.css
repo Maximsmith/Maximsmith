@@ -119,19 +119,19 @@ body#index a#contact.active, body#index a#work.active {
 	position: relative;
 }
 
-.work_item:second-child {
+.work_item:nth-child(2) {
 	top: -33.333vh;
 }
 
-.work_item:third-child {
+.work_item:nth-child(3) {
 	top: -66.666vh;
 }
 
-.work_item:fourth-child {
+.work_item:nth-child(4) {
 	top: -100vh;
 }
 
-.work_item:fifth-child {
+.work_item:nth-child(5) {
 	top: -133.333vh;
 }
 
