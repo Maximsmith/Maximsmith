@@ -55,6 +55,12 @@ p.index_copy {
 	transform: translateY(-50%) rotate(-90deg);
 }
 
+ul.nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 
 @media screen and (max-width:812px){
 }
