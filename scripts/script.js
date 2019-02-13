@@ -10,6 +10,8 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
+var base = 'https://maximsmith.github.io/';
+
 jQuery.address.change(function(event) {
     if (event.value) {
         // remove active class on all nav links
