@@ -113,25 +113,25 @@ body#index a#contact.active, body#index a#work.active {
 	height: 100%;
 }
 
-.work_item {
+.project {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
 }
 
-.work_item:nth-child(2) {
+.project:nth-child(2) {
 	top: -33.333vh;
 }
 
-.work_item:nth-child(3) {
+.project:nth-child(3) {
 	top: -66.666vh;
 }
 
-.work_item:nth-child(4) {
+.project:nth-child(4) {
 	top: -100vh;
 }
 
-.work_item:nth-child(5) {
+.project:nth-child(5) {
 	top: -133.333vh;
 }
 
