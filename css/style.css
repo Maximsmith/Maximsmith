@@ -119,8 +119,8 @@ body#index a#contact.active, body#index a#work.active {
 }
 
 .work_item_image {
-	width: 50vw;
-	height: 75vh;
+	width: 50%;
+	height: 75%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
