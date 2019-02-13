@@ -11,7 +11,7 @@ window.addEventListener('resize', () => {
 });
 
 $(function(){
-    var current = 'https://maximsmith.github.io/';
+    var current = 'https://maximsmith.github.io';
     $('nav li a').each(function(){
         var $this = $(this);
         // if the current path is like this link, make it active
