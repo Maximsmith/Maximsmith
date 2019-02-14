@@ -160,6 +160,23 @@ body#index a#contact.active, body#index a#work.active {
     background-position: 50% 50%; 
 }
 
+.work_item_image::after {
+	content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    background-size: cover;
+    transform-origin: center;
+    transition: transform 200ms ease-in-out; 
+}
+
+.work_item_image:hover::after {
+	transform: scale(1.05); 
+}
+
 .thumb-overlay {
 	opacity: 0;
 	width: 50%;
@@ -169,6 +186,7 @@ body#index a#contact.active, body#index a#work.active {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0.8);
+	transition: transform 200ms ease-in-out;
 }
 
 .thumb-overlay:hover {
