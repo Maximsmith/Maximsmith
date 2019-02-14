@@ -11,7 +11,7 @@
 		{% include nav.html %}
 		<div class="hero_body">
 			{% for link in site.data.settings.social %}
-			<div>
+			<div class="link_container">
 				<h2><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></h2>
 			</div>
 			{% endfor %}
