@@ -125,6 +125,11 @@ body#index a#contact.active, body#index a#work.active {
 	justify-content: space-around;
 }
 
+#contact h2 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 /*// Work Items //*/
 
 .work_body {
@@ -145,23 +150,6 @@ body#index a#contact.active, body#index a#work.active {
 .project:last-child {
 	margin-bottom: 20vh;
 }
-/*
-.project:nth-child(2) {
-	top: -33.333vh;
-}
-
-.project:nth-child(3) {
-	top: -66.666vh;
-}
-
-.project:nth-child(4) {
-	top: -100vh;
-}
-
-.project:nth-child(5) {
-	top: -133.333vh;
-}
-*/
 
 .work_item_thumb {
 	width: 50%;
