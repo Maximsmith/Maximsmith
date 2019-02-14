@@ -165,7 +165,7 @@ body#index a#contact.active, body#index a#work.active {
 	background-color: rgba(0, 0, 0, 0.8);
 }
 
-.work_item_image:hover .thumb-overlay {
+.thumb-overlay:hover {
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.8);
 }
