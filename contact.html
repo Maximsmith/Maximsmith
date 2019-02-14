@@ -10,9 +10,9 @@
 	<div class="main_body">
 		{% include nav.html %}
 		<div class="hero_body">
-			<h2>EMAIL</h2>
-			<h2>LINKEDIN</h2>
-			<h2>INSTAGRAM</h2>
+			{% for link in site.data.settings.social %}
+			<h2><a href="{{ link.link }}" target="_blank">{{ link.title }}</a></h2>
+			{% endfor %}
 		</div>
 	</div>
 <script>window.viewportUnitsBuggyfill.init();</script>

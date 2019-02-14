@@ -68,7 +68,9 @@ clients:
 # Contact Section
 
 social:
-- {icon: '', link: ''}
+- {title: 'email', link: 'mailto:maximsmith@gmail.com'}
+- {title: 'instagram', link: 'https://www.instagram.com/maximsmith'}
+- {title: 'linkedin', link: 'https://www.linkedin.com/in/max-smith-8482a848'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
