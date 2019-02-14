@@ -12,7 +12,7 @@
 		<div class="work_body">
 			{% for project in site.data.settings.projects %}
 			<div for="{{ project.folder }}" class="project" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
-				<a href="/{{ project.folder }}">
+				<a href="/{{ project.folder }}.html">
 					<div class="work_item_image" style="background-image: url({{ site.github.url }}/assets/images/work/{{project.folder}}/thumb.jpg);"></div>
 					<div class="thumb-overlay" style="display: none;">
 						<strong>{{ project.name }}</strong>
