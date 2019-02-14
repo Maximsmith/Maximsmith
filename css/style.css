@@ -169,11 +169,11 @@ body#index a#contact.active, body#index a#work.active {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	transition: transform 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
 }
 
 .work_item_thumb:hover .work_item_image img {
-	width: 125%;
+	transform: scale(1.1);
 }
 
 .thumb-overlay {
