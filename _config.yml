@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+
+markdown: kramdown
+permalink: pretty
+
+port: 8000
