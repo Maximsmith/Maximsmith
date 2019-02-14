@@ -187,6 +187,13 @@ body#index a#contact.active, body#index a#work.active {
 	transition: opacity 300ms;
 }
 
+.thumb-overlay h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .work_item_thumb:hover .thumb-overlay {
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.8);
