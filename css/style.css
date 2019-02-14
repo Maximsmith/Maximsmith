@@ -155,6 +155,9 @@ body#index a#contact.active, body#index a#work.active {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: 10px solid coral;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
 }
 
 
