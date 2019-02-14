@@ -173,7 +173,7 @@ body#index a#contact.active, body#index a#work.active {
 }
 
 .work_item_thumb:hover .work_item_image img {
-	width: 120%;
+	width: 125%;
 }
 
 .thumb-overlay {
