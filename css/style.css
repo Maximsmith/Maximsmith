@@ -47,13 +47,13 @@ li {
 }
 
 h1.index_title {
-	font-size: 51px;
+	font-size: 48px;
 }
 
 p.index_copy {
 	font-family: 'EB Garamond', serif;
 	color: #ffffff;
-	font-size: 45px;
+	font-size: 30px;
 	line-height: 1.5em;
 	letter-spacing: 1px;
 }
