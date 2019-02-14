@@ -155,26 +155,19 @@ body#index a#contact.active, body#index a#work.active {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border: none;
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%; 
+	overflow: hidden;
 }
 
-.work_item_image::after {
-	content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    background-size: cover;
-    transform-origin: center;
-    transition: transform 300ms ease-in-out; 
+.work_item_image img {
+	width: 110%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.work_item_image:hover::after {
-	transform: scale(1.05); 
+.work_item_image:hover img {
+	width: 120%;
 }
 
 .thumb-overlay {
