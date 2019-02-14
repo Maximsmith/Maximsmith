@@ -10,21 +10,16 @@
 	<div class="main_body">
 		{% include nav.html %}
 		<div class="work_body">
-			<div id="min" class="project">
-				{% include work_item.html %}
+			{% for project in site.data.settings.projects %}
+			<div for="{{ project.folder }}" class="project" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
+				<a href="#">
+					<div class="work_item_image"></div>
+					<div class="thumb-overlay" style="display: none;">
+						<strong>{{ project.name }}</strong>
+					</div>
+				</a>
 			</div>
-			<div id="180" class="project">
-				{% include work_item.html %}
-			</div>
-			<div id="fossil" class="project">
-				{% include work_item.html %}
-			</div>
-			<div id="NYCFC" class="project">
-				{% include work_item.html %}
-			</div>
-			<div id="elayne" class="project">
-				{% include work_item.html %}
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 <script>window.viewportUnitsBuggyfill.init();</script>
