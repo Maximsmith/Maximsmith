@@ -12,14 +12,16 @@
 		<div class="work_body">
 			{% for project in site.data.settings.projects %}
 			<div for="{{ project.folder }}" class="project" data-url="{{ site.github.url }}/work/{{ project.folder }}/">
-				<a href="/work/{{ project.folder }}.html">
-					<div class="work_item_image">
-						<img src="{{ site.github.url }}/assets/images/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}">
-					</div>
-					<div class="thumb-overlay">
-						<h2>{{ project.name }}</h2>
-					</div>
-				</a>
+				<div class="work_item_thumb">
+					<a href="/work/{{ project.folder }}.html">
+						<div class="work_item_image">
+							<img src="{{ site.github.url }}/assets/images/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}">
+						</div>
+						<div class="thumb-overlay">
+							<h2>{{ project.name }}</h2>
+						</div>
+					</a>
+				</div>
 			</div>
 			{% endfor %}
 		</div>

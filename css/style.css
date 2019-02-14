@@ -147,7 +147,7 @@ body#index a#contact.active, body#index a#work.active {
 	top: -133.333vh;
 }
 
-.work_item_image {
+.work_item_thumb {
 	width: 50%;
 	height: 50%;
 	position: absolute;
@@ -158,6 +158,11 @@ body#index a#contact.active, body#index a#work.active {
 	overflow: hidden;
 }
 
+.work_item_image {
+	width: 100%;
+	height: 100%;
+}
+
 .work_item_image img {
 	width: 110%;
 	position: absolute;
@@ -166,23 +171,22 @@ body#index a#contact.active, body#index a#work.active {
 	transform: translate(-50%, -50%);
 }
 
-.work_item_image:hover img {
+.work_item_thumb:hover .work_item_image img {
 	width: 120%;
 }
 
 .thumb-overlay {
 	opacity: 0;
-	width: 50%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 0;
+	left: 0;
 	background-color: rgba(0, 0, 0, 0.8);
 	transition: opacity 300ms;
 }
 
-.thumb-overlay:hover {
+.work_item_thumb:hover .thumb-overlay {
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.8);
 }
