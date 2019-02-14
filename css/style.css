@@ -210,6 +210,12 @@ body#index a#contact.active, body#index a#work.active {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
+	letter-spacing: 2px;
+}
+
+.work_item_thumb:hover .thumb-overlay h2 {
+	letter-spacing: 6px;
+	transition: all 600ms ease-in-out;
 }
 
 .work_item_thumb:hover .thumb-overlay {
