@@ -49,6 +49,7 @@ projects:
 - {name: FOSSIL, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: NYCFC , folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Elayne Arterbery , folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Indycar , folder: 'proj-6', file: 'work/proj-6.html'}
 
 
 
