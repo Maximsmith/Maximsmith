@@ -133,18 +133,22 @@ body#index a#contact.active, body#index a#work.active {
 
 .project:nth-child(2) {
 	top: -33.333vh;
+	z-index: -1;
 }
 
 .project:nth-child(3) {
 	top: -66.666vh;
+	z-index: -2;
 }
 
 .project:nth-child(4) {
 	top: -100vh;
+	z-index: -3;
 }
 
 .project:nth-child(5) {
 	top: -133.333vh;
+	z-index: -4;
 }
 
 .work_item_thumb {
