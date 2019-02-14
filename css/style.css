@@ -127,10 +127,14 @@ body#index a#contact.active, body#index a#work.active {
 
 .project {
 	width: 100vw;
-	height: 100vh;
+	height: 75vh;
 	position: relative;
 }
 
+.project:first-child {
+	margin-top: 12.5vh;
+}
+/*
 .project:nth-child(2) {
 	top: -33.333vh;
 }
@@ -146,6 +150,7 @@ body#index a#contact.active, body#index a#work.active {
 .project:nth-child(5) {
 	top: -133.333vh;
 }
+*/
 
 .work_item_thumb {
 	width: 50%;
