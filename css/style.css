@@ -154,12 +154,21 @@ body#index a#contact.active, body#index a#work.active {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	border: 10px solid coral;
+	border: none;
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%; 
 }
 
+.thumb-overlay {
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.work_item_image:hover .thumb-overlay {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.8);
+}
 
 @media screen and (max-width:812px){
 }
