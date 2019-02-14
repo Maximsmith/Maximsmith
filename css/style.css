@@ -183,8 +183,9 @@ body#index a#contact.active, body#index a#work.active {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.8);
-	transition: opacity 300ms;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: all 600ms;
+	border: 1px solid black;
 }
 
 .thumb-overlay h2 {
@@ -196,7 +197,8 @@ body#index a#contact.active, body#index a#work.active {
 
 .work_item_thumb:hover .thumb-overlay {
 	opacity: 1;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 20px solid black;
 }
 
 @media screen and (max-width:812px){
