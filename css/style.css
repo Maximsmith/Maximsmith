@@ -319,6 +319,10 @@ body#index a#contact.active, body#index a#work.active {
 		margin-top: 90px;
 	}
 
+	.project:last-child {
+		margin-bottom: 90px;
+	}
+
 	.project {
 		position: inherit;
 		margin: 0 0 30px 0;
@@ -340,5 +344,9 @@ body#index a#contact.active, body#index a#work.active {
 		height: 100%;
 		top: 0;
 		left: 0;
+	}
+
+	.work_item_image img {
+		width: 130%;
 	}
 }
