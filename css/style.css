@@ -316,6 +316,10 @@ body#index a#contact.active, body#index a#work.active {
 		transform: translateX(-50%);
 	}
 
+	.main_nav {
+		display: none;
+	}
+
 	.mobile_menu {
 		display: block;
 		position: fixed;
