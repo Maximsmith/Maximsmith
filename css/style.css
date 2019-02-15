@@ -255,7 +255,13 @@ body#index a#contact.active, body#index a#work.active {
 
 .work_copy {
 	width: 50%;
-	margin: 100px auto;
+	margin: 10% auto;
+}
+
+.work_copy p {
+	font-size: 15px;
+	line-height: 1.75em;
+	font-weight: 100;
 }
 
 @media screen and (max-width:812px){
