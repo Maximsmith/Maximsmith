@@ -227,5 +227,13 @@ body#index a#contact.active, body#index a#work.active {
 	border: 20px solid black;
 }
 
+.work_hero_body {
+	position: absolute;
+    width: 100vw;
+    left: 0;
+    height: 100vh;
+    top: 0;
+}
+
 @media screen and (max-width:812px){
 }
