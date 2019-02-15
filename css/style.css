@@ -316,6 +316,10 @@ body#index a#contact.active, body#index a#work.active {
 		transform: translateX(-50%);
 	}
 
+	.mobile_menu {
+		display: block;
+	}
+
 	.line1, .line2, .line3 {
 		margin-top:5px;
 		background-color:#fff;
