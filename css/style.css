@@ -361,9 +361,10 @@ body#index a#contact.active, body#index a#work.active {
 		padding: 0;
 		position: relative;
 		top: 75px;
+		bottom: 75px;
 		display: flex;
 		flex-direction: column;
-		height: calc(100% - 75px);
+		height: calc(100% - 150px);
 	}
 
 	.mobile_dropdown li {
@@ -373,6 +374,10 @@ body#index a#contact.active, body#index a#work.active {
 		border-top: 1px solid #ffffff;
 		width: 85%;
 		margin: 0 auto;
+	}
+
+	.mobile_dropdown li:last-child {
+		border-bottom: 1px solid #ffffff;
 	}
 
 	.mobile_dropdown li a {
