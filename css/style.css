@@ -241,6 +241,21 @@ body#index a#contact.active, body#index a#work.active {
 	background-position: center;
 	height: 100%;
 	width: 100%;
+	position: relative;
+}
+
+.work_hero_title {
+	position: absolute;
+}
+
+.work_1 {
+	width: 100%;
+	height: auto;
+}
+
+.work_copy {
+	width: 50%;
+	margin: 100px auto;
 }
 
 @media screen and (max-width:812px){
