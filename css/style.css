@@ -357,8 +357,16 @@ body#index a#contact.active, body#index a#work.active {
 
 	.mobile_dropdown {
 		list-style: none;
-		margin: 75px 0;
+		margin: 0;
 		padding: 0;
+		position: relative;
+		top: 75px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mobile_dropdown li {
+		flex: 1 1 100%;
 	}
 
 	.hero_body {
