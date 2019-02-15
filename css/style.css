@@ -335,6 +335,7 @@ body#index a#contact.active, body#index a#work.active {
 		text-align: center;
 		margin: 0;
 		padding: 0;
+		transition: 500ms ease-in-out;
 	}
 
 	.line1, .line2, .line3 {
@@ -372,6 +373,7 @@ body#index a#contact.active, body#index a#work.active {
 
 	.mobile_dropdown {
 		list-style: none;
+		opacity: 0;
 		margin: 0;
 		padding: 0;
 		position: relative;
@@ -380,6 +382,12 @@ body#index a#contact.active, body#index a#work.active {
 		display: flex;
 		flex-direction: column;
 		height: calc(100% - 150px);
+		transition-delay: 500ms;
+		transition: 500ms ease-in-out;
+	}
+
+	.mobile_nav.expand .mobile_dropdown {
+		opacity: 1;
 	}
 
 	.mobile_dropdown li {
