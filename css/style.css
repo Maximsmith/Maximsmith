@@ -363,6 +363,7 @@ body#index a#contact.active, body#index a#work.active {
 		top: 75px;
 		display: flex;
 		flex-direction: column;
+		height: calc(100% - 75px);
 	}
 
 	.mobile_dropdown li {
