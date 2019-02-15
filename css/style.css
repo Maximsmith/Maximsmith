@@ -1,6 +1,6 @@
 html {
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	/* Use vh as a fallback for browsers that do not support Custom Properties
 	height: calc(var(--vh, 1vh) * 100);*/
 	background: /*#031421*/ #000000;
