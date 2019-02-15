@@ -1,4 +1,4 @@
-html,body{
+html {
 	width: 100vw;
 	height: 100vh;
 	/* Use vh as a fallback for browsers that do not support Custom Properties
@@ -7,6 +7,9 @@ html,body{
 	margin:0;
 	padding:0;
 	position: relative;
+}
+
+body {
 }
 
 body#index {
