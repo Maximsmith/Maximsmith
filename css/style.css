@@ -295,8 +295,20 @@ body#index a#contact.active, body#index a#work.active {
 
 @media screen and (max-width:414px){
 
+	.index_logo {
+		left: 0;
+		top: 0;
+		height: 75px;
+		background-color: #000000;
+		z-index: 2;
+	}
+
 	h1.index_title {
 		font-size: 30px;
+		position: fixed;
+		top: 15px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.hero_body {
