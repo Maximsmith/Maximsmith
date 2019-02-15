@@ -333,7 +333,8 @@ body#index a#contact.active, body#index a#work.active {
 		overflow: hidden;
 		background-color: #000000;
 		text-align: center;
-		margin: 75px 0;
+		margin: 0;
+		padding: 0;
 	}
 
 	.line1, .line2, .line3 {
@@ -353,7 +354,7 @@ body#index a#contact.active, body#index a#work.active {
 		height: auto;
 		overflow: hidden;
 		list-style: none;
-		padding: 0;
+		padding: 75px 0px;
 	}
 
 	.hero_body {
