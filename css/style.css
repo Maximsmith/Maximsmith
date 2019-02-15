@@ -316,6 +316,18 @@ body#index a#contact.active, body#index a#work.active {
 		transform: translateX(-50%);
 	}
 
+	.line1, .line2, .line3 {
+		margin-top:5px;
+		background-color:#fff;
+		width:25px;
+		height:3px;
+		display:block;
+		position:relative;
+		opacity:1.0;
+		border-radius:15%;
+		transition: all .3s;
+	}
+
 	.hero_body {
 		width: 75vw;
 	}
