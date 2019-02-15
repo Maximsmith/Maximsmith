@@ -267,13 +267,14 @@ body#index a#contact.active, body#index a#work.active {
 }
 
 .work_copy {
-	width: 50%;
-	margin: 10% auto;
+	width: 66.666%;
+	margin: 15% auto;
+	max-width: 900px;
 }
 
 .work_copy p {
 	font-size: 15px;
-	line-height: 1.75em;
+	line-height: 2em;
 	font-weight: 100;
 }
 
