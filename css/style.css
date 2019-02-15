@@ -370,7 +370,9 @@ body#index a#contact.active, body#index a#work.active {
 		flex: 1 1 100%;
 		position: relative;
 		box-sizing: border-box;
-		border-top: 2px solid #ffffff;
+		border-top: 1px solid #ffffff;
+		width: 85%;
+		margin: 0 auto;
 	}
 
 	.mobile_dropdown li a {
