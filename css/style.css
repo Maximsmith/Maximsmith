@@ -62,8 +62,13 @@ li {
 	color: #ffffff;
 }
 
+.index_logo {
+	width: 100%;
+}
+
 h1.index_title {
 	font-size: 48px;
+	margin: 0;
 }
 
 p.index_copy {
