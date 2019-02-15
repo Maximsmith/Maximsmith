@@ -341,6 +341,12 @@ body#index a#contact.active, body#index a#work.active {
 		transition: all .3s;
 	}
 
+	.mobile_nav.expand {
+		display: block;
+		height: 100vh;
+		overflow: hidden;
+	}
+
 	.hero_body {
 		width: 75vw;
 	}
