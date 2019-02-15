@@ -352,6 +352,8 @@ body#index a#contact.active, body#index a#work.active {
 		display: block;
 		height: 100vh;
 		overflow: hidden;
+		list-style: none;
+		padding: 0;
 	}
 
 	.hero_body {
