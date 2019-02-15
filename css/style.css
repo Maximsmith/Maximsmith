@@ -349,6 +349,21 @@ body#index a#contact.active, body#index a#work.active {
 		transition: all .3s;
 	}
 
+	.is-active .line1 {
+	  transform: rotate(270deg);
+	  opacity:0.0;
+	  top:5px;
+	}
+
+	.is-active .line2 {
+	  transform: rotate(45deg);
+	}
+
+	.is-active .line3 {
+	  transform: rotate(-45deg);
+	  top:-7px;
+	}
+
 	.mobile_nav.expand {
 		display: block;
 		height: 100vh;
