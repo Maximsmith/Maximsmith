@@ -114,6 +114,10 @@ ul.nav {
 	padding-right: 0;
 }
 
+.nav li:hover {
+	font-weight: 400;
+}
+
 .nav li .active {
 	padding-bottom: 5px;
 	border-bottom: 2px solid #ffffff;
