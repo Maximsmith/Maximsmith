@@ -472,4 +472,8 @@ body#index a#contact.active, body#index a#work.active {
 	#project .index_logo {
 		background: transparent;
 	}
+
+	.work_copy {
+		width: 85%;
+	}
 }
