@@ -323,6 +323,12 @@ body#index a#contact.active, body#index a#work.active {
 		right: 30px;
 	}
 
+	.mobile_nav {
+		display: block;
+		height: 0px;
+		overflow: hidden;
+	}
+
 	.line1, .line2, .line3 {
 		margin-top:5px;
 		background-color:#fff;
