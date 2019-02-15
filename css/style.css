@@ -63,7 +63,10 @@ li {
 }
 
 .index_logo {
-	width: 100%;
+	position: fixed;
+    left: 50%;
+    top: 15px;
+    transform: translatex(-50%);
 }
 
 h1.index_title {
