@@ -353,8 +353,10 @@ body#index a#contact.active, body#index a#work.active {
 		display: block;
 		height: auto;
 		overflow: hidden;
+	}
+
+	.mobile_dropdown {
 		list-style: none;
-		padding: 75px 0px;
 	}
 
 	.hero_body {
