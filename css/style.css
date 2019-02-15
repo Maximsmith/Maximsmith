@@ -235,5 +235,13 @@ body#index a#contact.active, body#index a#work.active {
     top: 0;
 }
 
+.work_hero {
+	background-image: url(https://source.unsplash.com/1200x900);
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
 @media screen and (max-width:812px){
 }
