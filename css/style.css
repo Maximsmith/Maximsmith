@@ -331,6 +331,9 @@ body#index a#contact.active, body#index a#work.active {
 		display: block;
 		height: 0px;
 		overflow: hidden;
+		background-color: #000000;
+		text-align: center;
+		margin: 75px 0;
 	}
 
 	.line1, .line2, .line3 {
