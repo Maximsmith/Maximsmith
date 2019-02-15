@@ -159,7 +159,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	transform: translate(-50%, -50%);
 }
 
-#Contact .hero_body {
+#contact .hero_body {
 	display: flex;
 	justify-content: space-around;
 }
@@ -169,13 +169,13 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	text-align: center;
 }
 
-#Contact h2 {
+#contact h2 {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	transition: all 600ms ease-in-out;
 }
 
-#Contact h2:hover {
+#contact h2:hover {
 	letter-spacing: 6px;
 }
 
@@ -479,7 +479,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		width: 130%;
 	}
 
-	#Contact .hero_body {
+	#contact .hero_body {
 		flex-direction: column;
 	}
 
