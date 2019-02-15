@@ -368,6 +368,16 @@ body#index a#contact.active, body#index a#work.active {
 
 	.mobile_dropdown li {
 		flex: 1 1 100%;
+		position: relative;
+		box-sizing: border-box;
+		border-top: 2px solid #ffffff;
+	}
+
+	.mobile_dropdown li a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 	.hero_body {
