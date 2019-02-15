@@ -364,6 +364,10 @@ body#index a#contact.active, body#index a#work.active {
 		width: 130%;
 	}
 
+	#contact .hero_body {
+		flex-direction: column;
+	}
+
 	#project .index_logo {
 		background: transparent;
 	}
