@@ -338,7 +338,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		display: block;
 		position: fixed;
 		top: 20px;
-		right: 30px;
+		right: 7.5%;
 	}
 
 	.mobile_nav {
