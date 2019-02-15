@@ -293,5 +293,14 @@ body#index a#contact.active, body#index a#work.active {
 	font-weight: 100;
 }
 
-@media screen and (max-width:812px){
+@media screen and (max-width:414px){
+
+	h1.index_title {
+		font-size: 30px;
+	}
+
+	p.index_copy {
+		font-size: 21px;
+		line-height: 1.25em;
+	}
 }
