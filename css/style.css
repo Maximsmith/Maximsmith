@@ -69,6 +69,10 @@ li {
     transform: translatex(-50%);
 }
 
+.mobile_menu, .mobile_nav {
+	display: none;
+}
+
 h1.index_title {
 	font-size: 48px;
 	margin: 0;
