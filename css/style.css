@@ -313,7 +313,15 @@ body#index a#contact.active, body#index a#work.active {
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		margin: 75px 0;
+		margin: 75px;
+	}
+
+	.project:first-child {
+		margin-top: 0;
+	}
+
+	.project:last-child {
+		margin-bottom: 0;
 	}
 
 	.project {
