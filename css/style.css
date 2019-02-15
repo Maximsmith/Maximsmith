@@ -321,7 +321,7 @@ body#index a#contact.active, body#index a#work.active {
 
 	.project {
 		position: inherit;
-		margin: 30px 0;
+		margin: 0 0 30px 0;
 		height: auto;
 	}
 
