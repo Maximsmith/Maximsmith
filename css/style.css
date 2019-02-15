@@ -296,9 +296,10 @@ body#index a#contact.active, body#index a#work.active {
 @media screen and (max-width:414px){
 
 	.index_logo {
-		left: 0;
+		left: 50%;
 		top: 0;
 		height: 75px;
+		width: 100%;
 		background-color: #000000;
 		z-index: 2;
 	}
