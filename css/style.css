@@ -351,12 +351,14 @@ body#index a#contact.active, body#index a#work.active {
 
 	.mobile_nav.expand {
 		display: block;
-		height: auto;
+		height: 100vh;
 		overflow: hidden;
 	}
 
 	.mobile_dropdown {
 		list-style: none;
+		margin: 75px 0;
+		padding: 0;
 	}
 
 	.hero_body {
