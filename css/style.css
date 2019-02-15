@@ -350,7 +350,7 @@ body#index a#contact.active, body#index a#work.active {
 
 	.mobile_nav.expand {
 		display: block;
-		height: 100vh;
+		height: auto;
 		overflow: hidden;
 		list-style: none;
 		padding: 0;
