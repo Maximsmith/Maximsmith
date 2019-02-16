@@ -365,7 +365,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 }
 
-.work_iphone_1.off {
+.work_iphone_1.off, .work_iphone_2.off, .work_iphone_3.off {
 	opacity: 0;
 	transition: 500ms ease-in-out;
 }
@@ -394,6 +394,9 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
+    transition-delay: 250ms;
+    transition: 500ms ease-in-out;
 }
 
 .work_iphone_3 {
@@ -409,6 +412,9 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     overflow: hidden;
     background-size: cover;
     background-position: top;
+    opacity: 1;
+    transition-delay: 500ms;
+    transition: 500ms ease-in-out;
 }
 
 .toggle_btn {
