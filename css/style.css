@@ -263,7 +263,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	border: 20px solid black;
 }
 
-#project .work_hero {
+.work_hero_body {
 	position: absolute;
     width: 100vw;
     left: 0;
