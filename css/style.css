@@ -646,6 +646,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 	.work_hero_title h1 {
 		font-size: 30px;
+		text-align: center;
 	}
 
 	.work_ipad_1.off {
