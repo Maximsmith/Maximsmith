@@ -358,7 +358,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_iphone_1 {
-	width: 70%;
+	width: 24.5%;
     border-radius: 22px;
     padding-top: 49%;
     border: 1px solid white;
@@ -368,8 +368,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_iphone_2 {
-	width: 96.3%;
-    padding-top: 66.4%;
+	width: 89.3%;
+    padding-top: 189%;
     border: 1px solid white;
     box-sizing: border-box;
     position: absolute;
@@ -380,9 +380,9 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_iphone_3 {
-	width: 99%;
+	width: 97%;
     border-radius: 5px;
-    padding-top: 68%;
+    padding-top: 209%;
     border: 1px solid white;
     box-sizing: border-box;
     position: absolute;
