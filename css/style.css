@@ -357,6 +357,10 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	display: none;
 }
 
+.work_iphone_1.off {
+	display: none;
+}
+
 .work_iphone_1 {
 	width: 24.5%;
     border-radius: 22px;
