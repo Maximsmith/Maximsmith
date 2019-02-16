@@ -399,6 +399,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .off .work_ipad_3 {
 	opacity: 0;
 	width: 0%;
+	transition-delay: 1000ms;
 }
 
 .work_ipad_4 {
@@ -426,6 +427,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     background-size: cover;
     background-position: top;
     transition: 500ms ease-in-out;
+    transition-delay: 1000ms;
 }
 
 /*
