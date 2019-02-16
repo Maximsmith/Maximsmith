@@ -312,8 +312,9 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	font-weight: 100;
 }
 
-.work_copy.ipad {
+.work_1.ipad {
 	max-width: 100%;
+	position: relative;
 }
 
 .work_ipad_1 {
@@ -402,6 +403,17 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	bottom: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	letter-spacing: 3px;
+}
+
+.toggle_btn:hover {
+	letter-spacing: 6px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ffffff;
 }
 
 .toggle_btn .dsk, .active .mob {
