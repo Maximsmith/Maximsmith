@@ -366,6 +366,57 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_ipad_1.off {
+	width: 21%;
+    border-radius: 22px;
+    padding-top: 42%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: 500ms ease-in-out;
+}
+
+.off .work_ipad_2 {
+	width: 89.3%;
+    padding-top: 190%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.off .work_ipad_3 {
+	opacity: 0;
+}
+
+.work_ipad_4 {
+	opacity: 0;
+}
+
+.off .work_ipad_4 {
+	opacity: 1;
+	width: 97%;
+    border-radius: 5px;
+    padding-top: 210%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-size: cover;
+    background-position: top;
+}
+
+/*
+.work_ipad_1.off {
 	opacity: 0;
 	transition: 500ms ease-in-out;
 
@@ -416,6 +467,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     background-size: cover;
     background-position: top;
 }
+*/
 
 .toggle_btn {
 	text-align: center;
