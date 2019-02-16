@@ -431,6 +431,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	transition: 500ms ease-in-out;
 	padding-bottom: 5px;
 	border-bottom: 2px solid #ffffff;
+	cursor: pointer;
 }
 
 .toggle_btn:hover {
