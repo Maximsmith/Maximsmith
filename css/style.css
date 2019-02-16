@@ -748,6 +748,11 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	    padding-top: 60%;
 	    border-radius: 15px;
 	}
+
+	.work_ipad_1 {
+		border-radius: 6px;
+	}
+
 	/*
 
 	.work_iphone_1 {
