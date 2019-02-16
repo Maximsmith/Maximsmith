@@ -721,6 +721,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		text-align: center;
 	}
 
+	/*
 	.work_ipad_1.off {
 		opacity: 1;
 		transition: 500ms ease-in-out;
@@ -744,4 +745,5 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		width: 75%;
 		padding-top: 150%;
 	}
+	*/
 }
