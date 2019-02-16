@@ -271,16 +271,14 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     top: 0;
 }
 
-{% for project in site.data.settings.project-1 %}
 .work_hero {
-	background-image: url('assets/images/work/{{project.folder}}/thumb.jpg');
+	background-image: url(https://source.unsplash.com/1200x900);
 	background-size: cover;
 	background-position: center;
 	height: 100%;
 	width: 100%;
 	position: relative;
 }
-{% endfor %}
 
 .work_hero_title {
 	position: absolute;
