@@ -365,9 +365,21 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 }
 
-.work_iphone_1.off, .work_iphone_2.off, .work_iphone_3.off {
+.work_iphone_1.off {
 	opacity: 0;
 	transition: 500ms ease-in-out;
+}
+
+.work_iphone_2.off {
+	opacity: 0;
+	transition: 500ms ease-in-out;
+	transition-delay: 500ms;
+}
+
+.work_iphone_3.off {
+	opacity: 0;
+	transition: 500ms ease-in-out;
+	transition-delay: 1000ms;
 }
 
 .work_iphone_1 {
