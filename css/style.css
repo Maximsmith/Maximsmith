@@ -412,8 +412,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 .toggle_btn:hover {
 	letter-spacing: 6px;
-	padding-bottom: 5px;
-	border-bottom: 2px solid #ffffff;
 }
 
 .toggle_btn .dsk, .active .mob {
