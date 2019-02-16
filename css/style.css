@@ -404,6 +404,14 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	font-family: 'Raleway', sans-serif;
 }
 
+.toggle_btn .dsk, .active .mob {
+	display: none;
+}
+
+.active .dsk {
+	display: block;
+}
+
 @media screen and (max-width:414px){
 
 	.index_logo {
