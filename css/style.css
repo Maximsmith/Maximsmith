@@ -271,6 +271,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     top: 0;
 }
 
+{% for project in site.data.settings.project-1 %}
 .work_hero {
 	background-image: url('assets/images/work/{{project.folder}}/thumb.jpg');
 	background-size: cover;
@@ -279,6 +280,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	width: 100%;
 	position: relative;
 }
+{% endfor %}
 
 .work_hero_title {
 	position: absolute;
