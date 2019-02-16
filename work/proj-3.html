@@ -1,29 +1,28 @@
 ---
+layout: page
+title: project
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-	{% include head.html %}
-</head>
-<body id="project">
-	<div class="main_body">
-		{% include nav.html %}
-		<div class="work_hero_body">
-			<div class="work_hero">
-				<div class="work_hero_title">
-					<h1>TITLE</h1>
-				</div>
-			</div>
-			<div class="work_1">
-				<div class="work_copy">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>
-				</div>
-			</div>
-			<div class="work_2" style="width: 100%; height: 100%; border: 10px solid coral; box-sizing: border-box;"></div>
+{% for project in site.data.settings.project-3 %}
+<div class="work_hero_body">
+	<div class="work_hero" style="background-image: url(/assets/images/work/{{project.folder}}/thumb.jpg);">
+		<div class="work_hero_title">
+			<h1>{{ project.name }}</h1>
 		</div>
 	</div>
-<script>window.viewportUnitsBuggyfill.init();</script>
-</body>
-</html>
+	<div class="work_1">
+		<div class="work_copy">
+			{{ project.description }}
+		</div>
+	</div>
+	<div class="work_2" style="width: 100%; height: 100%; border: 10px solid coral; box-sizing: border-box;"></div>
+	<div class="work_1">
+		<div class="work_copy" style="height: 66.666vh; border: 10px solid coral; box-sizing: border-box;"></div>
+	</div>
+	<div class="work_2" style="width: 100%; height: 100%; border: 10px solid coral; box-sizing: border-box;"></div>
+	<div class="work_1">
+		<div class="work_copy" style="height: 66.666vh; border: 10px solid coral; box-sizing: border-box;"></div>
+	</div>
+	<div class="work_2" style="width: 100%; height: 100%; border: 10px solid coral; box-sizing: border-box;"></div>
+</div>
+{% endfor %}
