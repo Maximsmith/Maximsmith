@@ -398,6 +398,12 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     background-position: top;
 }
 
+.toggle_btn {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+
 @media screen and (max-width:414px){
 
 	.index_logo {
