@@ -336,6 +336,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: 500ms ease-in-out;
+    transition-delay: 100ms;
 }
 
 .work_ipad_2 {
@@ -349,6 +350,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 500ms ease-in-out;
+    transition-delay: 500ms;
 }
 
 .work_ipad_3 {
