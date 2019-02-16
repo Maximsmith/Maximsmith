@@ -325,6 +325,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     box-sizing: border-box;
     position: relative;
     margin: 15% auto;
+    opacity: 1;
+    transition: 500ms ease-in-out;
 }
 
 .work_ipad_2 {
@@ -356,10 +358,15 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 .work_ipad_1.off {
 	display: none;
+	opacity: 0;
+	transition: 500ms ease-in-out;
+
 }
 
 .work_iphone_1.off {
 	display: none;
+	opacity: 0;
+	transition: 500ms ease-in-out;
 }
 
 .work_iphone_1 {
@@ -370,6 +377,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     box-sizing: border-box;
     position: relative;
     margin: 15% auto;
+    opacity: 1;
+    transition: 500ms ease-in-out;
 }
 
 .work_iphone_2 {
