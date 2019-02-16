@@ -413,15 +413,22 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 	position: absolute;
+	font-size: 12px;
+	opacity: 0.8;
 	bottom: -50px;
 	left: 50%;
 	transform: translateX(-50%);
 	letter-spacing: 3px;
 	transition: 500ms ease-in-out;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ffffff;
 }
 
 .toggle_btn:hover {
 	letter-spacing: 6px;
+	opacity: 1;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ffffff;
 }
 
 .toggle_btn .dsk, .active .mob {
