@@ -300,6 +300,11 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	height: auto;
 }
 
+.work_2 {
+	background-size: cover;
+	background-position: center;
+}
+
 .work_copy {
 	width: 66.666%;
 	margin: 15% auto;
