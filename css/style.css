@@ -328,7 +328,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin: 15% auto;
     opacity: 1;
     transition: 500ms ease-in-out;
 }
@@ -381,7 +380,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    margin: 15% auto;
     opacity: 1;
     transition: 500ms ease-in-out;
 }
