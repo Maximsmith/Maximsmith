@@ -323,6 +323,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     border: 1px solid white;
     box-sizing: border-box;
     position: relative;
+    margin: 15% auto;
 }
 
 .work_ipad_2 {
