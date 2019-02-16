@@ -353,6 +353,47 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     background-position: center;
 }
 
+.work_ipad_1.off {
+	display: none;
+}
+
+.work_iphone_1 {
+	width: 70%;
+    border-radius: 22px;
+    padding-top: 49%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: relative;
+    margin: 15% auto;
+}
+
+.work_iphone_2 {
+	width: 96.3%;
+    padding-top: 66.4%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work_iphone_3 {
+	width: 99%;
+    border-radius: 5px;
+    padding-top: 68%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (max-width:414px){
 
 	.index_logo {
