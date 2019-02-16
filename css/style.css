@@ -622,6 +622,14 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		width: 85%;
 	}
 
+	.work_hero_title {
+		padding: 10px;
+	}
+
+	.work_hero_title h1 {
+		font-size: 30px;
+	}
+
 	.work_ipad_1.off {
 		opacity: 1;
 		transition: 500ms ease-in-out;
