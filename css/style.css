@@ -336,7 +336,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: 500ms ease-in-out;
-    transition-delay: 100ms;
+    transition-delay: 1000ms;
 }
 
 .work_ipad_2 {
