@@ -640,7 +640,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	}
 
 	.work_hero_title {
-		padding: 10px;
+		padding: 20px 30px;
+		width: 65%;
 	}
 
 	.work_hero_title h1 {
