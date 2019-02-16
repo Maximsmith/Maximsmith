@@ -348,6 +348,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 500ms ease-in-out;
 }
 
 .work_ipad_3 {
@@ -363,6 +364,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     overflow: hidden;
     background-size: cover;
     background-position: center;
+    transition: 500ms ease-in-out;
 }
 
 .work_ipad_1.off {
@@ -397,6 +399,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 .work_ipad_4 {
 	opacity: 0;
+	width: 0%;
+	transition: 500ms ease-in-out;
 }
 
 .off .work_ipad_4 {
