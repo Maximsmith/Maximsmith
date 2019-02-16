@@ -623,12 +623,13 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	}
 
 	.work_ipad_1 {
-		width: 75%;
-		padding-top: 200%;
+		width: 85%;
+	    padding-top: 60%;
+	    border-radius: 10px;
 	}
 
 	.work_iphone_1 {
 		width: 75%;
-		padding-top: 200%;
+		padding-top: 150%;
 	}
 }
