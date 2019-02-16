@@ -737,6 +737,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 	.work_ipad_1.off {
 		width: 75%;
+		padding-top: 150%;
 	    padding-top: 15%;
 	    border-radius: 10px;
 	}
