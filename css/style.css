@@ -423,6 +423,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     overflow: hidden;
     background-size: cover;
     background-position: top;
+    transition: 500ms ease-in-out;
 }
 
 /*
