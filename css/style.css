@@ -272,7 +272,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_hero {
-	background-image: url(https://source.unsplash.com/1200x900);
+	background-image: url('assets/images/work/{{project.folder}}/thumb.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100%;
