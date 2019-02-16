@@ -403,8 +403,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .work_ipad_4 {
 	opacity: 0;
 	width: 0%;
-	transition: 500ms ease-in-out;
-	transition-delay: 500ms;
+	transition: 250ms ease-in-out;
 	position: absolute;
     left: 50%;
     top: 50%;
