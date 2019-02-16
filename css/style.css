@@ -349,6 +349,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 @media screen and (max-width:414px){
