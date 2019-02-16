@@ -733,12 +733,14 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		transition: 500ms ease-in-out;
 	}
 
+	*/
 	.work_ipad_1 {
 		opacity: 0;
 		width: 85%;
 	    padding-top: 60%;
 	    border-radius: 10px;
 	}
+	/*
 
 	.work_iphone_1 {
 		opacity: 0;
