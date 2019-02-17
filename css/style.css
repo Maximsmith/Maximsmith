@@ -319,6 +319,10 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	font-weight: 100;
 }
 
+.work_copy img {
+	width: 100%;
+}
+
 .work_1.ipad {
 	max-width: 100%;
 	height: 100vh;
