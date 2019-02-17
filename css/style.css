@@ -597,10 +597,10 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		padding: 0;
 		position: relative;
 		top: 75px;
-		bottom: 75px;
+		bottom: 50%;
 		display: flex;
 		flex-direction: column;
-		height: calc(100% - 150px);
+		height: calc(100% - 75px - 50%);
 		transition-delay: 500ms;
 		transition: 500ms ease-in-out;
 	}
