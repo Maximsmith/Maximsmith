@@ -298,12 +298,13 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .work_1 {
 	width: 100%;
 	height: auto;
+	min-height: 100vh;
 }
 
 .work_2 {
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .work_copy {
