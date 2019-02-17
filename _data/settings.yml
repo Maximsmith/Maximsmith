@@ -87,15 +87,17 @@ project-5:
 - {name: Elayne Arterbery,
   folder: 'proj-5',
   file: '',
-  description: '<p>Radiation oncologist Dr. Elayne Arterbery hired DMA United to develop and launch her own skincare line. Based on her long career of healing cancer patients and witnessing the damage of radiation on skin, which resembles years of dehydration and sun damage, Dr. Arterbery wanted to put her years of experience in skin rejuvenation into a treatment line for all women to benefit from.</p>
-<p>The resulting brand created by DMA United focused on a single ingredient that is not yet widespread in beauty products: Apigenin. A naturally occurring ingredient found in chamomile and a variety of plants and herbs, Apigenin has remarkable skin healing and anti-cancer properties. DMA United created the strategy, identity, packaging and digital platform for the brand.</p>'}
+  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+
+<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
 
 project-6:
 - {name: Indycar,
   folder: 'proj-6',
   file: '',
-  description: '<p>IndyCar, America’s prestige open wheel racing series, engaged DMA United to create and implement a strategy for elevating IndyCar through its next generation drivers.</p>
-<p>The strategy focused on establishing the next generation drivers as premier athletes and cultural icons. Their awe inspiring on-track feats at speeds rarely experienced by most people were communicated via heroic illustrations and photography, partnerships with luxury brands, associations with personalities and an ongoing conversation with a broad range of media.</p>'}
+  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+
+<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
 
 
 #-------------------------------
