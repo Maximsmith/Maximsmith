@@ -315,6 +315,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .work_2 .work_copy {
 	width: 100%;
 	margin: 5% auto;
+	max-width: 100%;
 }
 
 .work_copy p {
