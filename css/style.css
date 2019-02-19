@@ -312,6 +312,11 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	max-width: 900px;
 }
 
+.work_2 .work_copy {
+	width: 100%;
+	margin: 5% auto;
+}
+
 .work_copy p {
 	font-size: 15px;
 	line-height: 2em;
