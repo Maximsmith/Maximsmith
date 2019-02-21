@@ -854,7 +854,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	}
 
 	.work_2 {
-		min-height: 100%;
+		min-height: auto;
 	}
 
 	/*
