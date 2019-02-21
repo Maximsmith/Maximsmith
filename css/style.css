@@ -535,6 +535,14 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	display: block;
 }
 
+#myVideo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
 @media screen and (max-width:414px){
 
 	.index_logo {
