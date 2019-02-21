@@ -45,7 +45,7 @@ skills:
 
 projects:
 - {name: MiN NEW YORK , folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: 180 Duane , folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: 180 The Store , folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: FOSSIL, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: NYCFC , folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Elayne Arterbery , folder: 'proj-5', file: 'work/proj-5.html'}
@@ -56,27 +56,26 @@ project-1:
   folder: 'proj-1',
   file: '',
   description: '
-  <p><strong>ROLES:</strong> Design, Art Direction, Web Design, Web Development</p>
+  <p>Art Direction, Web Design, Web Development, Print & Packaging Design</p>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
-
-<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
+  <p>MiN New York is a niche luxury perfume brand based in SoHo, New York. This last year the brand has also ventured into eyewear. My role primarily looks after digital, print and packaging design. I have Designed and developed the current ecommerce website (min.com), wholesale website (MiNProfessionals.com), email marketing and landing pages. I have also been maintained an operations management role for flagship SoHo store, Wholesale, and ecommerce platforms. Other duties include print and packaging design, product photography, image retouching and creative direction.</p>'}
 
 project-2:
-- {name: 180 Duane,
+- {name: 180 The Store,
   folder: 'proj-2',
   file: '',
-  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+  description: '<p>Web Design, Web Development, E-commerce Consultant</p>
 
-<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
+  <p>Store and showroom 180 The Store</p>'}
 
 project-3:
 - {name: FOSSIL,
   folder: 'proj-3',
   file: '',
-  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+  description: '
+  <p>Web Design, Web Development, E-commerce Consultant</p>
 
-<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
+  <p>Store and showroom 180 The Store</p>'}
 
 project-4:
 - {name: NYCFC,
