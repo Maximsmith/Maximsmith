@@ -55,7 +55,10 @@ project-1:
 - {name: MiN NEW YORK,
   folder: 'proj-1',
   file: '',
-  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
+  description: '
+  <p><strong>ROLES:</strong> Design, Art Direction, Web Design, Web Development</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
 
 <p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
 
