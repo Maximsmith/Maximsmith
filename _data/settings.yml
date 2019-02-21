@@ -64,7 +64,8 @@ project-2:
 - {name: 180 The Store,
   folder: 'proj-2',
   file: '',
-  description: '<p>Web Design, Web Development, E-commerce Consultant</p>
+  description: '
+  <p>Web Design, Web Development, E-commerce Consultant</p>
 
   <p>Store and showroom, 180 The Store, based in Tribeca, NY needed an e-commerce store, having not sold online before. I have been working with the showroom to set them up to sell online, working to set up operations on the back-end as well as designing and developing the front-end store.</p>'}
 
@@ -73,7 +74,7 @@ project-3:
   folder: 'proj-3',
   file: '',
   description: '
-  <p>Art Direction</p>
+  <p>Art Direction, Advertising, Print Design</p>
 
   <p>Whilst working as an art director at DMA United, the timepiece brand Fossil entrusted us to their first television commercial, focusing on their new Q Smartwatch. As the senior art director on this campaign I worked on developing this campaign from conception to delivery.</p>'}
 
