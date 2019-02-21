@@ -334,7 +334,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_copy img {
-	width: 100%;
+	max-width: 100%;
+	max-height: 66.666vh;
 }
 
 .work_1.ipad {
