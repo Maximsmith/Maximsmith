@@ -853,6 +853,10 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		text-align: center;
 	}
 
+	.work_2 {
+		min-height: 100%;
+	}
+
 	/*
 	.work_ipad_1.off {
 		opacity: 1;
