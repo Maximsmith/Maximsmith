@@ -604,7 +604,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	border-bottom: 2px solid #ffffff;
 }
 
-.toggle_btn .dsk, .active .mob {
+.toggle_btn .dsk, .toggle_btn_2 .dsk, .active .mob {
 	display: none;
 }
 
