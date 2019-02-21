@@ -58,7 +58,7 @@ project-1:
   description: '
   <p>Art Direction, Web Design, Web Development, Print & Packaging Design</p>
 
-  <p>MiN New York is a niche luxury perfume brand based in SoHo, New York. This last year the brand has also ventured into eyewear. My role primarily looks after digital, print and packaging design. I have Designed and developed the current ecommerce website (min.com), wholesale website (MiNProfessionals.com), email marketing and landing pages. I have also been maintained an operations management role for flagship SoHo store, Wholesale, and ecommerce platforms. Other duties include print and packaging design, product photography, image retouching and creative direction.</p>'}
+  <p>MiN New York is a niche luxury perfume brand based in SoHo, New York. My role primarily looked after digital, print and packaging design. I had Designed and developed the main ecommerce website (min.com), wholesale website (MiNProfessionals.com), email marketing and landing pages. I also maintained an operations management role for the flagship SoHo store, Wholesale accounts, and ecommerce platforms. Other duties included product photography, image retouching and creative direction.</p>'}
 
 project-2:
 - {name: 180 The Store,
@@ -66,7 +66,7 @@ project-2:
   file: '',
   description: '<p>Web Design, Web Development, E-commerce Consultant</p>
 
-  <p>Store and showroom 180 The Store</p>'}
+  <p>Store and showroom, 180 The Store, based in Tribeca, NY needed an e-commerce store, having not sold online before. I have been working with the showroom to set them up to sell online, working to set up operations on the back-end as well as designing and developing the front-end store.</p>'}
 
 project-3:
 - {name: FOSSIL,
