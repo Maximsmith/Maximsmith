@@ -376,7 +376,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	position: relative;
 }
 
-.work_ipad_1 {
+.work_ipad_1, .work_ipad_1_2 {
 	width: 60%;
     border-radius: 22px;
     padding-top: 42%;
@@ -434,7 +434,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     transition: 500ms ease-in-out;
 }
 
-.work_ipad_1.off {
+.work_ipad_1.off, .work_ipad_1_2.off {
 	width: 21%;
     border-radius: 22px;
     padding-top: 42%;
