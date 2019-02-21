@@ -75,23 +75,23 @@ project-3:
   description: '
   <p>Art Direction</p>
 
-  <p>Whilst working as an art director at DMA United, Timepiece brand Fossil entrusted us to their first television commercial, focusing on their new Q Smartwatch. As the senior art director on this campaign I worked on developing this campaign from conception to delivery.</p>'}
+  <p>Whilst working as an art director at DMA United, the timepiece brand Fossil entrusted us to their first television commercial, focusing on their new Q Smartwatch. As the senior art director on this campaign I worked on developing this campaign from conception to delivery.</p>'}
 
 project-4:
 - {name: NYCFC,
   folder: 'proj-4',
   file: '',
-  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
-
-<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
+  description: '
+  <p>Art Direction, Digital Design, Print Design</p>
+  <p>Developed (at DMA United) the inaugural advertising campaign for New York City’s MLS soccer team, NYCFC. Bringing iconic New York City street art inside Yankee Stadium and across all print and digital touch points.</p>'}
 
 project-5:
 - {name: Elayne Arterbery,
   folder: 'proj-5',
   file: '',
-  description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla justo, varius ut odio eu, facilisis eleifend risus. Phasellus in cursus sapien, ac euismod urna. Vivamus nec efficitur nibh. Maecenas lectus dui, scelerisque luctus urna in, pellentesque tincidunt augue. Duis elementum neque sollicitudin, tristique erat vel, hendrerit erat. Phasellus fringilla gravida pellentesque. Donec nec dictum turpis. Fusce est erat, dignissim interdum cursus congue, pretium vitae ipsum. Mauris non ultrices ligula, quis suscipit odio. Quisque ornare, velit eu venenatis viverra, felis purus fermentum velit, a accumsan ante justo quis eros. Donec dapibus erat nec ullamcorper eleifend. Fusce enim leo, sodales in porta eu, scelerisque quis justo. Nunc fermentum sit amet elit at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>
-
-<p>Aenean sed sem ut velit pharetra mattis. Fusce metus quam, pretium lacinia aliquam ut, efficitur et ipsum. Aliquam justo nulla, ultrices sit amet bibendum in, dignissim non massa. Praesent suscipit dolor augue, sit amet venenatis augue pellentesque et. Sed tempor fermentum metus semper luctus. Mauris et arcu a enim hendrerit aliquet. Ut non egestas erat. Vestibulum et accumsan dui. Pellentesque semper libero in tempor hendrerit.</p>'}
+  description: '
+  <p>Art Direction, Branding, Web Design, Packaging Design</p>
+  <p>Rradiation oncologist Dr. Elayne Arterbery hired DMA United to develop and launch her own skincare line. I developed the identity, packaging and digital platform for the brand.</p>'}
 
 project-6:
 - {name: Indycar,
