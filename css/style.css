@@ -857,6 +857,10 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 		min-height: auto;
 	}
 
+	.work_2.video {
+		height: 25%;
+	}
+
 	/*
 	.work_ipad_1.off {
 		opacity: 1;
