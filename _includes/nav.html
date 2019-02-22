@@ -1,6 +1,6 @@
 <nav class="main_nav">
 	<ul class="nav">
-		{% assign pages_list = site.pages %}
+		{% assign pages_list = site.pages | sort:"order" %}
   		{% assign group = 'navigation' %}
 		{% include pages_list.html %}
 	</ul>
