@@ -8,3 +8,9 @@
 	width: 75vw;
 	max-width: 900px;
 }
+
+.product_description_copy p {
+	font-size: 12px;
+	line-height: 2em;
+	letter-spacing: 3px;
+}
