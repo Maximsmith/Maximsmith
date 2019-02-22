@@ -103,6 +103,13 @@ project-6:
   <p>Art Direction</p>
   <p>For its 100th season, IndyCar engaged DMA United to create and implement a strategy for elevating IndyCar through its next generation drivers.</p>'}
 
+  project-7:
+- {name: Test,
+  folder: 'proj-7',
+  file: '',
+  description: '
+  <p>Idea development and testing space</p>'}
+
 
 #-------------------------------
 # Clients Section
