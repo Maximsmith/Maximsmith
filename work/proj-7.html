@@ -10,10 +10,8 @@ title: project
 			<h1>{{ project.name }}</h1>
 		</div>
 	</div>
-	<div class="work_1">
-		<div class="work_copy">
-			{{ project.description }}
-		</div>
-	</div>
+
+	{% include product_description.html %}
+	
 </div>
 {% endfor %}
