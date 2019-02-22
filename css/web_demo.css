@@ -47,7 +47,7 @@
 .landscape_border {
 	width: 99%;
 	border-radius: 5px;
-	padding-top: 68%;
+	padding-top: 67.5%;
 	border: 1px solid white;
 	box-sizing: border-box;
 	position: absolute;
@@ -77,6 +77,14 @@
 }
 
 .landscape_border img, .landscape_border img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50% , -50%);
+	-moz-transform: translate(-50% , -50%);
+	-ms-transform: translate(-50% , -50%);
+	-o-transform: translate(-50% , -50%);
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
