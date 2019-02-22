@@ -14,7 +14,7 @@
   </div>
   <div class="mobile_nav">
 	  <ul class="mobile_dropdown">
-			{% assign pages_list = site.pages %}
+			{% assign pages_list = site.pages | sort:"order" %}
 	  		{% assign group = 'navigation' %}
 			{% include pages_list.html %}
 		</ul>
