@@ -107,8 +107,9 @@ project-7:
 - {name: Test,
   folder: 'proj-7',
   file: '',
-  description: '
-  <p>Idea development and testing space</p>'}
+  description: 
+    '<p>Idea development and testing space</p>'
+}
 
 
 #-------------------------------
