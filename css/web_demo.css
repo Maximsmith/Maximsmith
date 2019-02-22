@@ -149,3 +149,18 @@
 	border-bottom: 2px solid #ffffff;
 	cursor: pointer;
 }
+
+.toggle_btn:hover {
+	letter-spacing: 6px;
+	opacity: 1;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ffffff;
+}
+
+.toggle_btn .dsk, .active .mob {
+	display: none;
+}
+
+.active .dsk {
+	display: block;
+}
