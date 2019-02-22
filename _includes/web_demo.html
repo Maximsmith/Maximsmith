@@ -13,3 +13,15 @@
 	</div>
 	<div class="toggle_btn"><span class="dsk">VIEW DESKTOP</span><span class="mob">VIEW MOBILE</span></div>
 </div>
+<script type="text/javascript">
+jQuery(function($){
+  $( '.toggle_btn' ).click(function(){
+    $('.border_1').toggleClass('off')
+  })
+})
+$(document).ready(function(){
+  $(".toggle_btn").click(function(){
+    $(this).toggleClass("active");
+  });
+});
+</script>
