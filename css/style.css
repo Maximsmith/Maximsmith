@@ -347,6 +347,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	width: 66.666%;
 	margin: 15% auto;
 	max-width: 900px;
+	text-align: center;
 }
 
 .work_2 .work_copy {
@@ -364,10 +365,12 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	font-size: 15px;
 	line-height: 2em;
 	font-weight: 100;
+	text-align: left;
 }
 
 .work_copy img {
 	max-width: 100%;
+	max-height: 70vh;
 }
 
 .work_1.ipad {
