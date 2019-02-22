@@ -117,6 +117,7 @@ ul.nav {
 	font-weight: 200;
 	font-size: 12px;
 	cursor: pointer; 
+	text-transform: uppercase;
 }
 
 .nav li:last-child {
