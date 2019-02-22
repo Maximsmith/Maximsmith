@@ -1,8 +1,8 @@
 <nav class="main_nav">
 	<ul class="nav">
-		<li><a id="work" class="" href="/work.html">WORK</a></li>
-		<li><a id="index" class="" href="/">ABOUT</a></li>
-		<li><a id="contact" class="" href="/contact.html">CONTACT</a></li>
+		{% assign pages_list = site.pages %}
+  		{% assign group = 'navigation' %}
+		{% include pages_list.html %}
 	</ul>
 </nav>
 <div class="index_logo">
@@ -14,9 +14,9 @@
   </div>
   <div class="mobile_nav">
 	  <ul class="mobile_dropdown">
-			<li><a id="work" class="" href="/work.html">WORK</a></li>
-			<li><a id="index" class="" href="/">ABOUT</a></li>
-			<li><a id="contact" class="" href="/contact.html">CONTACT</a></li>
+			{% assign pages_list = site.pages %}
+	  		{% assign group = 'navigation' %}
+			{% include pages_list.html %}
 		</ul>
 	</div>
 </div>
