@@ -116,7 +116,7 @@
 	box-sizing: border-box;
 }
 
-.landscape_border img, .off .landscape_border img {
+.landscape_border img, .off .portrait_border img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -129,6 +129,11 @@
 	width: 100%;
 	object-fit: cover;
 }
+
+.off .landscape_border img {
+	display: none;
+}
+
 .toggle_btn {
 	text-align: center;
 	color: #ffffff;
