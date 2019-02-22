@@ -340,7 +340,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .work_2 {
 	background-size: cover;
 	background-position: center;
-	min-height: 100vh;
 }
 
 .work_copy {
@@ -617,6 +616,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 .work_2.video {
 	position: relative;
+	min-height: 100vh;
 }
 
 #myVideo {
