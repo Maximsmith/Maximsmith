@@ -81,4 +81,23 @@
 	width: 100%;
 	object-fit: cover;
 }
-.toggle_btn {}
+.toggle_btn {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 12px;
+	opacity: 0.8;
+	bottom: 7.5%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	letter-spacing: 3px;
+	transition: 500ms ease-in-out;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #ffffff;
+	cursor: pointer;
+}
