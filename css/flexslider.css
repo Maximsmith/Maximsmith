@@ -47,6 +47,7 @@
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
+  height: 100%;
 }
 .flexslider .slides img {
   width: 100%;
@@ -79,9 +80,10 @@ html[xmlns] .flexslider .slides {
 }
 .flexslider .slides {
   zoom: 1;
+  height: 100%;
 }
 .flexslider .slides img {
-  height: auto;
+  height: 100%;
   -moz-user-select: none;
 }
 .flex-viewport {
@@ -192,7 +194,7 @@ html[xmlns] .flexslider .slides {
 .flex-control-nav {
   width: 100%;
   position: absolute;
-  bottom: -40px;
+  bottom: 30px;
   text-align: center;
 }
 .flex-control-nav li {
