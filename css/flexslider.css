@@ -43,6 +43,7 @@
 .flexslider {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 .flexslider .slides > li {
   display: none;
@@ -85,6 +86,7 @@ html[xmlns] .flexslider .slides {
 .flexslider .slides img {
   height: 100%;
   -moz-user-select: none;
+  object-fit: cover;
 }
 .flex-viewport {
   max-height: 2000px;
