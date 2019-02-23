@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width:414px) {
+	.image_medium {
+		width: 100%;
+		height: auto;
+	}
 	.image_medium_content {
 		position: inherit;
 		text-align: center;
