@@ -20,4 +20,7 @@
 	.flexslider:hover .flex-direction-nav .flex-prev {
 		left: 10px;
 	}
+	.flex-control-nav {
+		bottom: 10px;
+	}
 }
