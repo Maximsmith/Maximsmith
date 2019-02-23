@@ -97,6 +97,7 @@
 
 .portrait_border {
 	opacity: 0;
+	overflow: hidden;
 	width: 0%;
 	transition: 250ms ease-in-out;
 	position: absolute;
