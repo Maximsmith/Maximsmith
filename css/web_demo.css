@@ -172,14 +172,14 @@
 	cursor: pointer;
 }
 
-.toggle_btn:hover {
+.toggle:hover {
 	letter-spacing: 6px;
 	opacity: 1;
 	padding-bottom: 5px;
 	border-bottom: 2px solid #ffffff;
 }
 
-.toggle_btn .dsk, .active .mob {
+.toggle .dsk, .active .mob {
 	display: none;
 }
 
