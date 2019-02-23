@@ -375,7 +375,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	text-align: left;
 }
 
-.work_copy img {
+.work_1 .work_copy img {
 	max-width: 100%;
 	max-height: 70vh;
 }
