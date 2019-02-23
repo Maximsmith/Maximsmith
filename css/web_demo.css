@@ -170,7 +170,7 @@
 	-o-transform: translateX(-50%);
 	letter-spacing: 5px;
 	transition: 500ms ease-in-out;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	border: none;
 	cursor: pointer;
 }
