@@ -178,14 +178,14 @@
 }
 
 .border_1::after {
-	content: 'VIEW MOBILE';
+	content: 'TAP TO VIEW MOBILE';
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Raleway', sans-serif;
 	position: absolute;
 	font-size: 12px;
 	opacity: 0.8;
-	bottom: 7.5%;
+	bottom: -12.5px;
 	left: 50%;
 	transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
@@ -197,6 +197,10 @@
 	padding-bottom: 3px;
 	border: none;
 	cursor: pointer;
+}
+
+.off.border_1::after {
+	content: 'TAP TO VIEW DESKTOP';
 }
 
 @media screen and (max-width:414px) {
