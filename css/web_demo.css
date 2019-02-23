@@ -140,6 +140,7 @@
 	transition: 500ms ease-in-out;
 	border: 2px solid #ffffff;
 	box-sizing: content-box;
+	background-color: #ffffff;
 }
 
 .portrait_border img {
