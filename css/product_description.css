@@ -14,3 +14,10 @@
 	line-height: 2em;
 	letter-spacing: 3px;
 }
+
+@media screen and (max-width:414px) {
+	.product_description_copy {
+		margin: 7.5% auto;
+		width: 85%;
+	}
+}
