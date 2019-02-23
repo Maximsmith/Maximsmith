@@ -113,6 +113,7 @@
 
 .off .portrait_border {
 	opacity: 1;
+	overflow: hidden;
 	width: 97%;
 	border-radius: 5px;
 	padding-top: 210%;
