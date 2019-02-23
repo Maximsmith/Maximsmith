@@ -14,4 +14,10 @@
 		width: 100%;
 		height: auto;
 	}
+	.flexslider:hover .flex-direction-nav .flex-next {
+		right: 10px;
+	}
+	.flexslider:hover .flex-direction-nav .flex-prev {
+		left: 10px;
+	}
 }
