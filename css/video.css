@@ -17,3 +17,21 @@
 	height: 100%;
 	object-fit: cover;
 }
+
+@media screen and (max-width:414px) {
+	.video {
+		width: 100%;
+		height: auto;
+	}
+
+	.video_bg {
+		position: inherit;
+		top: 0;
+		left: 0;
+		transform: none;
+		-webkit-transform: none;
+	    -moz-transform: none;
+	    -ms-transform: none;
+	    -o-transform: none; 
+	}
+}
