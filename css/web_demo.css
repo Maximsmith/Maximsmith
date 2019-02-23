@@ -204,4 +204,7 @@
 	.landscape_border {
 		border-radius: 6px;
 	}
+	.toggle {
+		bottom: 2.5%;
+	}
 }
