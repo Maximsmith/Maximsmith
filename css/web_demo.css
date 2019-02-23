@@ -185,7 +185,8 @@
 	position: absolute;
 	font-size: 12px;
 	opacity: 0.8;
-	bottom: -12.5px;
+	bottom: -30px;
+	width: 100%;
 	left: 50%;
 	transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
