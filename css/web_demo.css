@@ -117,6 +117,7 @@
 }
 
 .landscape_border img, .off .portrait_border img {
+	opacity: 1;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -128,9 +129,11 @@
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
+	transition: 500ms ease-in-out;
 }
 
 .portrait_border img {
+	opacity: 0;
 	height: 0;
 	width: 0;
 	top: 50%;
