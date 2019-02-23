@@ -116,7 +116,7 @@
 	box-sizing: border-box;
 }
 
-.landscape_border img, .off .portrait_border img {
+.landscape_border img, .off .portrait_border img, .portrait_border img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -131,7 +131,7 @@
 }
 
 .off .landscape_border img {
-	display: none;
+	opacity: 0;
 }
 
 .toggle_btn {
