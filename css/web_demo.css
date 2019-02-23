@@ -141,6 +141,7 @@
 	-ms-transform: translate(-50% , -50%);
 	-o-transform: translate(-50% , -50%);
 	object-fit: cover;
+	transition: 500ms ease-in-out;
 }
 
 .off .landscape_border img {
