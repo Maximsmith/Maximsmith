@@ -27,8 +27,8 @@
 
 .border_1.off {
 	width: 21%;
-	border-radius: 22px;
-	padding-top: 42%;
+	border-radius: 23px;
+	padding-top: 41.75%;
 	border: 1px solid white;
 	box-sizing: border-box;
 	position: absolute;
@@ -44,7 +44,7 @@
 
 .border_2 {
 	width: 96.3%;
-	padding-top: 66.4%;
+	padding-top: 65.9%;
 	border: 1px solid white;
 	box-sizing: border-box;
 	position: absolute;
