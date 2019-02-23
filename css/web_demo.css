@@ -177,6 +177,28 @@
 	cursor: pointer;
 }
 
+.border_1::after {
+	content: 'VIEW MOBILE';
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	font-size: 12px;
+	opacity: 0.8;
+	bottom: 7.5%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	letter-spacing: 5px;
+	transition: 500ms ease-in-out;
+	padding-bottom: 3px;
+	border: none;
+	cursor: pointer;
+}
+
 @media screen and (max-width:414px) {
 	.border_1 {
 		width: 90%;
