@@ -68,6 +68,7 @@
 }
 
 .landscape_border {
+	opacity: 1;
 	width: 99%;
 	border-radius: 5px;
 	padding-top: 67.5%;
