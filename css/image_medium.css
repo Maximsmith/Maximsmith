@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.image_full_width img {
+.image_medium_content img {
 	max-width: 100%;
 	max-height: 70vh;
 }
