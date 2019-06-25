@@ -29,8 +29,10 @@
 
 .border_1.off {
 	width: 21%;
-	border-radius: 23px;
-	padding-top: 42%;
+	/*border-radius: 23px;
+	padding-top: 42%;*/
+	border-radius: 20px;
+	padding-top: 41%;
 	border: 1px solid white;
 	box-sizing: border-box;
 	position: absolute;
@@ -67,7 +69,9 @@
 
 .off .border_2 {
 	width: 89.3%;
-	padding-top: 189.15%;
+	/*padding-top: 189.15%;
+	border-radius: 9px;*/
+	padding-top: 184.5%;
 	border-radius: 9px;
 }
 
@@ -125,7 +129,8 @@
 	overflow: hidden;
 	width: 97%;
 	border-radius: 5px;
-	padding-top: 210%;
+	/*padding-top: 210%;*/
+	padding-top: 205%;
 	border: 1px solid white;
 	box-sizing: border-box;
 }
