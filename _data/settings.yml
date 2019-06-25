@@ -44,6 +44,7 @@ skills:
 # Work Section
 
 projects:
+- {name: HANK CODE , folder: 'proj-9', file: 'work/proj-9.html'}
 - {name: OAK NYC , folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: MiN NEW YORK , folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: 180 The Store , folder: 'proj-2', file: 'work/proj-2.html'}
@@ -118,6 +119,14 @@ project-8:
   file: '',
   description: 
     '<p>Web Design, development & migrating e-commerce platform to shopify.</p>'
+}
+
+project-8:
+- {name: HANK CODE,
+  folder: 'proj-9',
+  file: '',
+  description: 
+    '<p>Web Design & development.</p>'
 }
 
 
