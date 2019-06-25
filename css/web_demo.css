@@ -133,16 +133,16 @@
 .landscape_border img, .off .portrait_border img {
 	opacity: 1;
 	position: absolute;
-	top: 50%;
+	top: 0;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50% , -50%);
-	-moz-transform: translate(-50% , -50%);
-	-ms-transform: translate(-50% , -50%);
-	-o-transform: translate(-50% , -50%);
-	height: 100%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	height: auto;
 	width: 100%;
-	object-fit: cover;
+	/*object-fit: cover;*/
 	transition: 500ms ease-in-out;
 	border: 2px solid #ffffff;
 	box-sizing: content-box;
