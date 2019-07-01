@@ -52,7 +52,7 @@ projects:
 - {name: NYCFC , folder: 'proj-4', file: 'work/proj-4.html'}
 - {name: Elayne Arterbery , folder: 'proj-5', file: 'work/proj-5.html'}
 - {name: Indycar , folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Test , folder: 'proj-7', file: 'work/proj-7.html'}
+
 
 project-1:
 - {name: MiN NEW YORK,
