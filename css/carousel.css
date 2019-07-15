@@ -1,9 +1,15 @@
-.carousel {
-	width: 100%;
-	/*
+.carousel_demo {
 	height: 100%;
-	*/
+    width: 100%;
+    position: relative;
+}
+
+.carousel {
+	width: 75%;
 	height: auto;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .flexslider {
