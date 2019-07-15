@@ -46,6 +46,7 @@ skills:
 projects:
 - {name: HANK CODE , folder: 'proj-9', file: 'work/proj-9.html'}
 - {name: OAK NYC , folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Millionaire Match , folder: 'proj-10, file: 'work/proj-10.html'}
 - {name: MiN NEW YORK , folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: 180 The Store , folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: FOSSIL, folder: 'proj-3', file: 'work/proj-3.html'}
@@ -118,7 +119,7 @@ project-8:
   folder: 'proj-8',
   file: '',
   description: 
-    '<p>Web Design, development & migrating e-commerce platform to shopify.</p>'
+    '<p>Web Design, development & migrating OAK's e-commerce platform to shopify, integrating marketing & cross-channel inventory platforms.</p>'
 }
 
 project-9:
@@ -126,7 +127,15 @@ project-9:
   folder: 'proj-9',
   file: '',
   description: 
-    '<p>Web Design & development.</p>'
+    '<p>Web and UX Design & development for Hank Code, a high-end multi-brand retailer focusing directly on the unique needs of gay men.</p>'
+}
+
+project-10:
+- {name: Millionaire Match,
+  folder: 'proj-10',
+  file: '',
+  description: 
+    '<p>Developing a refreshed desktop experience for Millionaire Match, a dating app and community for wealthy & successful people.</p>'
 }
 
 

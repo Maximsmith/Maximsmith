@@ -1,0 +1,34 @@
+---
+layout: page
+title: project
+---
+
+{% for project in site.data.settings.project-10 %}
+<div class="work_hero_body">
+	<div class="work_hero" style="background-image: url(/assets/images/work/{{project.folder}}/thumb.jpg);">
+		<div class="work_hero_title">
+			<h1>{{ project.name }}</h1>
+		</div>
+	</div>
+
+	<div class="carousel">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="/assets/images/work/{{project.folder}}/MM_web-03.jpg">
+				</li>
+				<li>
+					<img src="/assets/images/work/{{project.folder}}/MM_web-04.jpg">
+				</li>
+				<li>
+					<img src="/assets/images/work/{{project.folder}}/MM_web-05.jpg">
+				</li>
+				<li>
+					<img src="/assets/images/work/{{project.folder}}/MM_web-06.jpg">
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+{% endfor %}
