@@ -5,12 +5,15 @@
 }
 
 .carousel {
-	width: 75%;
+	width: 85%;
 	height: auto;
 	position: relative;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+	border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .flexslider {
@@ -21,7 +24,7 @@
 
 @media screen and (max-width:414px) {
 	.carousel {
-		width: 100%;
+		width: 90%;
 		height: auto;
 	}
 	.flexslider:hover .flex-direction-nav .flex-next {
