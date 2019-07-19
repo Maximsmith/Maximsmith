@@ -370,7 +370,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 }
 
 .work_copy p {
-	font-size: 15px;
+	font-size: 27px;
+	letter-spacing: 1px;
 	line-height: 2em;
 	font-weight: 100;
 	text-align: left;
@@ -853,6 +854,14 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 	.work_copy {
 		width: 85%;
+	}
+
+	.work_copy p {
+		font-size: 15px;
+		letter-spacing: 1px;
+		line-height: 2em;
+		font-weight: 100;
+		text-align: left;
 	}
 
 	.work_hero_title {
