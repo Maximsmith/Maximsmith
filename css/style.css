@@ -343,6 +343,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .work_1 {
 	width: 100%;
 	height: auto;
+	height: fit-content;
 }
 
 .work_2 {
