@@ -228,23 +228,13 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%) scale(1.2);
-	-webkit-transform: translate(-50% , -50%) scale(1.2);
-    -moz-transform: translate(-50% , -50%) scale(1.2);
-    -ms-transform: translate(-50% , -50%) scale(1.2);
-    -o-transform: translate(-50% , -50%) scale(1.2);
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
 	border: none;
 	overflow: hidden;
-}
-
-.work_item_thumb:hover {
-	transform: translate(-50%, -50%) scale(1.2);
-	-webkit-transform: translate(-50% , -50%) scale(1.2);
-    -moz-transform: translate(-50% , -50%) scale(1.2);
-    -ms-transform: translate(-50% , -50%) scale(1.2);
-	-o-transform: translate(-50% , -50%) scale(1.2);
-	width: 40%;
-	height: 64%;
 }
 
 .work_item_image {
@@ -307,13 +297,11 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	letter-spacing: 6px;
 }
 
-/*
 .work_item_thumb:hover .thumb-overlay {
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.5);
 	border: 20px solid black;
 }
-*/
 
 .work_hero_body {
 	position: absolute;
