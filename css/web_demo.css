@@ -6,7 +6,7 @@
 
 .size_toggle {}
 
-.border_1 {
+.border_1, .border_1_1 {
 	width: 70%;
 	/*border-radius: 22px;
 	padding-top: 42%;*/
@@ -222,7 +222,7 @@
 }
 
 @media screen and (max-width:414px) {
-	.border_1 {
+	.border_1, .border_1_1 {
 		width: 90%;
 		padding-top: 63.5%;
 	    border-radius: 15px;
