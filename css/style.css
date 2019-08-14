@@ -304,7 +304,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	transition: all 600ms;
-	border: 1px solid black;
 	box-sizing: border-box;
 }
 
