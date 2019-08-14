@@ -229,7 +229,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	width: 66.666%;
 	padding-top: 44.444%;
 	position: relative;
-	overflow: hidden;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -239,6 +238,12 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
     -o-transform: translate(-50% , -50%);
 	border: none;
 	overflow: hidden;
+	transition: all 600ms;
+}
+
+.work_item_thumb:hover {
+	width: calc(66.666% - 40px);
+	padding-top: calc(44.444% - 40%);
 }
 
 .work_item_image {
@@ -304,7 +309,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .work_item_thumb:hover .thumb-overlay {
 	opacity: 1;
 	background-color: rgba(0, 0, 0, 0.5);
-	border: 20px solid black;
 }
 
 .work_hero_body {
