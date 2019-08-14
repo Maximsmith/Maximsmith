@@ -39,6 +39,9 @@
 		left: 10px;
 	}
 	.flex-control-nav {
+		/*
 		bottom: 10px;
+		*/
+		display: none;
 	}
 }
