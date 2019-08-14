@@ -243,7 +243,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 
 .work_item_thumb:hover {
 	width: calc(66.666% - 40px);
-	padding-top: calc(44.444% - 40%);
+	padding-top: calc(44.444% - 40px);
 }
 
 .work_item_image {
