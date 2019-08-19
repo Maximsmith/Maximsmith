@@ -23,7 +23,7 @@
 	-ms-transform: translate(-50% , -50%);
 	-o-transform: translate(-50% , -50%);
 	opacity: 1;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 	transition-delay: 1000ms;
 }
 
@@ -43,7 +43,7 @@
     -moz-transform: translate(-50% , -50%);
     -ms-transform: translate(-50% , -50%);
     -o-transform: translate(-50% , -50%);
-    transition: 500ms ease-in-out;
+    transition: 500ms ease;
 }
 
 .border_2 {
@@ -63,7 +63,7 @@
 	-ms-transform: translate(-50% , -50%);
 	-o-transform: translate(-50% , -50%);
 	overflow: hidden;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 	transition-delay: 500ms;
 }
 
@@ -94,7 +94,7 @@
 	-ms-transform: translate(-50% , -50%);
 	-o-transform: translate(-50% , -50%);
 	overflow: hidden;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 }
 
 .off .landscape_border {
@@ -102,7 +102,7 @@
 	width: 0%;
 	height: 0%;
 	transition-delay: 1000ms;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 }
 
 .portrait_border {
@@ -110,7 +110,7 @@
 	overflow: hidden;
 	width: 0%;
 	height: 0%;
-	transition: 250ms ease-in-out;
+	transition: 250ms ease;
 	position: absolute;
 	/*
 	background-color: #ffffff;
@@ -148,7 +148,7 @@
 	height: auto;
 	width: 100%;
 	/*object-fit: cover;*/
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 	/*border: 2px solid #ffffff;*/
 	box-sizing: content-box;
 	background-color: #ffffff;
@@ -166,7 +166,7 @@
 	-ms-transform: translate(-50% , -50%);
 	-o-transform: translate(-50% , -50%);
 	object-fit: cover;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 }
 
 .off .landscape_border img {
@@ -188,7 +188,7 @@
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	letter-spacing: 5px;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 	padding-bottom: 3px;
 	border: none;
 	cursor: pointer;
@@ -211,7 +211,7 @@
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	letter-spacing: 5px;
-	transition: 500ms ease-in-out;
+	transition: 500ms ease;
 	padding-bottom: 3px;
 	border: none;
 	cursor: pointer;
