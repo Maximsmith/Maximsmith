@@ -116,12 +116,12 @@
 	background-color: #ffffff;
 	*/
 	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50% , -50%);
-	-moz-transform: translate(-50% , -50%);
-	-ms-transform: translate(-50% , -50%);
-	-o-transform: translate(-50% , -50%);
+	top: 0;
+	transform: translate(-50%, 0);
+	-webkit-transform: translate(-50% , 0);
+	-moz-transform: translate(-50% , 0);
+	-ms-transform: translate(-50% , 0);
+	-o-transform: translate(-50% , 0);
 }
 
 .off .portrait_border {
@@ -138,13 +138,13 @@
 .landscape_border img, .off .portrait_border img {
 	opacity: 1;
 	position: absolute;
-	top: 50%;
+	top: 0%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
 	height: auto;
 	width: 100%;
 	/*object-fit: cover;*/
