@@ -53,4 +53,20 @@
 		});
 	</script>
 
+	<script type="text/javascript">
+		function handleClick(e) {
+			e.preventDefault();
+			const bars = document.querySelectorAll(".bar");
+			bars.forEach((bar, i) => {
+				bar.style.animationPlayState = "running";
+			});
+			const lastBar = bars[bars.length - 1];
+			lastBar.addEventListener("animationend", () => {
+				setTimeout(() as {
+					window.location = e.target.href;
+				}, 500);
+			}):
+		}
+	</script>
+
 </head>
