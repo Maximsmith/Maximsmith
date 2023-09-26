@@ -179,7 +179,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-duration: 0.5s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards; 
-	transform: translate(-100%) ;
+	transform: translate(-100%);
+	animation-play-state: paused;
 }
 
 .bar:nth-child(2) {
