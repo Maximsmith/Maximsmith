@@ -189,7 +189,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .in .bar {
 	height: 20%; width: 100%;
 	background-color: white;
-	animation-name: tend;
+	animation-name: tendin;
 	animation-duration: 0.5s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards; 
