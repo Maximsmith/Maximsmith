@@ -199,10 +199,10 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-delay: 400ms;
 }
 
-.in .bar {
+.tender {
 	height: 20%; width: 100%;
 	background-color: white;
-	animation-name: tendin;
+	animation-name: bar;
 	animation-duration: 0.5s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards; 
@@ -210,16 +210,16 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-play-state: inherit;
 }
 
-.in .bar:nth-child(2) {
+.tender:nth-child(2) {
 	animation-delay: 100ms;
 }
-.in .bar:nth-child(3) {
+.tender:nth-child(3) {
 	animation-delay: 200ms;
 }
-.in .bar:nth-child(4) {
+.tender:nth-child(4) {
 	animation-delay: 300ms;
 }
-.in .bar:nth-child(5) {
+.tender:nth-child(5) {
 	animation-delay: 400ms;
 }
 
@@ -232,7 +232,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	}
 }
 
-@keyframes tendin {
+@keyframes bar {
 	0% {
 		transform: translateX(0%);
 	}
