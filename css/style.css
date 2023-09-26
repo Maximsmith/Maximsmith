@@ -199,6 +199,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-delay: 400ms;
 }
 
+/*
 .tenderbar {
 	position: absolute;
 	top: 0;
