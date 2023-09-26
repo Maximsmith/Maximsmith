@@ -172,6 +172,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	right: 0;
 	bottom: 0;
 	pointer-events: none;
+	z-index: 100;
 }
 
 .bar {
