@@ -183,16 +183,16 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-play-state: paused;
 }
 
-#index .bar:nth-child(2) {
+.bar:nth-child(2) {
 	animation-delay: 100ms;
 }
-#index .bar:nth-child(3) {
+.bar:nth-child(3) {
 	animation-delay: 200ms;
 }
-#index .bar:nth-child(4) {
+.bar:nth-child(4) {
 	animation-delay: 300ms;
 }
-#index .bar:nth-child(5) {
+.bar:nth-child(5) {
 	animation-delay: 400ms;
 }
 
