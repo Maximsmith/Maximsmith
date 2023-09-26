@@ -3,7 +3,15 @@
 		{% if page.url == node.url %}
 			<li id="{{node.title}}" class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
 		{% else %}
-			<li id="{{node.title}}"><a href="{{node.url}}" onclick="handleClick(event)">{{node.title}}</a></li>
+			<li id="{{node.title}}"><a href="{{node.url}}" onclick="handleClick(event)">{{node.title}}</a>
+				<div class="bartender">
+					<div class-"bar"></div>
+					<div class "bar"></div>
+					<div class "bar"></div>
+					<div class "bar"></div>
+					<div class "bar"></div>
+				</div>
+			</li>
 		{% endif %}
 	{% endif %}
 {% endfor %}
