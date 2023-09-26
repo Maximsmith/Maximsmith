@@ -207,6 +207,7 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards; 
 	transform: translate(0%);
+	animation-play-state: inherit;
 }
 
 .in .bar:nth-child(2) {
