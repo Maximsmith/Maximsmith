@@ -175,7 +175,8 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 .bar {
 	height: 20%; width: 100%;
 	background-color: white;
-	animation-name: tend; animation-duration: 0.5s;
+	animation-name: tend;
+	animation-duration: 0.5s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards; 
 	transform: translate(-100%) ;
