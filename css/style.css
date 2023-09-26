@@ -199,6 +199,15 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-delay: 400ms;
 }
 
+.tenderbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: 100;
+}
 .tender {
 	height: 20%; width: 100%;
 	background-color: white;
@@ -207,7 +216,6 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards; 
 	transform: translate(0%);
-	animation-play-state: inherit;
 }
 
 .tender:nth-child(2) {
@@ -223,21 +231,22 @@ body#index a#contact.active:hover, body#index a#work.active:hover {
 	animation-delay: 400ms;
 }
 
-@keyframes tend {
-	0% {
-		transform: translateX(-100%);
-	}
-	100% {
-		transform: translateX(0%);
-	}
-}
-
 @keyframes bar {
 	0% {
 		transform: translateX(0%);
 	}
 	100% {
 		transform: translateX(100%);
+	}
+}
+/**/
+
+@keyframes tend {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0%);
 	}
 }
 
